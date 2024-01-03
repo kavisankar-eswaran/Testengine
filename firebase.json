@@ -6,11 +6,12 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [ {
-      "source": "/",
-      "destination": "/testengine/",
-      "type": 301
-    }
-   ]
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/testengine/",
+        "type": 301
+      }
+    ]
   }
 }
