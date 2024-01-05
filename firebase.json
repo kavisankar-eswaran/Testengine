@@ -12,6 +12,12 @@
         "destination": "/testengine/",
         "type": 301
       }
+    ],
+    "rewrites": [
+      {
+        "source": "/files/:path",
+        "destination": "https://cdn.kavisankar.com/files/:path"
+      }
     ]
   }
 }
