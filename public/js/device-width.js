@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     style.innerHTML = `
         #device-width {
             position: fixed;
-            font-size: 10px;
+            font-size: 12px;
             right: 10px;
             bottom: 10px;
             padding: 10px;
