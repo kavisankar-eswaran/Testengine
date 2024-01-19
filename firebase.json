@@ -11,12 +11,12 @@
         "source": "/",
         "destination": "/testengine/",
         "type": 301
-      }
-    ],
-    "rewrites": [
+      },
+
       {
-        "source": "/files/:path",
-        "destination": "https://cdn.kavisankar.com/files/:path"
+        "source": "/files/**",
+        "destination": "https://cdn.kavisankar.com/files/$1",
+        "type": 301
       }
     ]
   }
