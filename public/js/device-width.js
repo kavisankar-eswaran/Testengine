@@ -28,10 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
         let deviceWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
         if (deviceWidthDiv) {
-            deviceWidthDiv.innerHTML = 'Device Width: ' + deviceWidth + 'px';
+            deviceWidthDiv.innerHTML = 'Device width: ' + deviceWidth + 'px';
         }
     }
 
     updateDeviceWidth();
     window.addEventListener('resize', updateDeviceWidth);
 });
+
+console.log("Device width appended by KE");
