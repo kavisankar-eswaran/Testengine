@@ -36,4 +36,4 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', updateDeviceWidth);
 });
 
-console.log("Device width appended by KE");
+console.log("Device width integrated by github.com/kavisankar-eswaran");
