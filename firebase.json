@@ -5,19 +5,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/testengine/",
-        "type": 301
-      },
-
-      {
-        "source": "/files/**",
-        "destination": "https://cdn.kavisankar.com/files/$1",
-        "type": 301
-      }
     ]
   }
 }
