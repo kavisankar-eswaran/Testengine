@@ -3,6 +3,7 @@
     "public": "public",
     "ignore": [
       "firebase.json",
+      "mesurz.json",
       "**/.*",
       "**/node_modules/**"
     ]
